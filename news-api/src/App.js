@@ -14,9 +14,10 @@ function App() {
 
        setNewsList(data);
        
-      },[]);
+       
+      });
       
-    }
+    },[]
   )
   return (
     <div className="App">
