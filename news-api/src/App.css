@@ -12,12 +12,13 @@ body{
 {
   width: 100%;
   font-size: 22px;
-  margin:0;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   font-family: 'Open Sans', sans-serif;
   height: fit-content;
   background-color: black;
   color: white;
+  position: fixed;
+  z-index: 1;
 }
 
 .newsContainer
@@ -86,6 +87,16 @@ color: red;
 font-weight: bold;
 }
 
+.card:nth-child(1) {
+ 
+  margin-top: 6rem;
+}
+
+.card:nth-child(2) {
+  
+  margin-top: 6rem;
+}
+
 
 @media (max-width: 800px) {
 .card{
@@ -93,6 +104,16 @@ font-weight: bold;
   margin-right: 0px;
   width: 23rem;
 }
+
+.card:nth-child(1) {
+ 
+  margin-top: 4rem;
+}
+.card:nth-child(2) {
+ 
+  margin-top: 0;
+}
+
 
 }
 

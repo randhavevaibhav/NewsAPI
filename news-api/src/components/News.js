@@ -23,7 +23,7 @@ function News() {
   return (
     <>
       <div className="title">
-        {" "}
+       
         <h1>Space News</h1>
       </div>
       <div id="Error-div">{error ? <p>An error occurred: {error.message}</p> : null}</div>
