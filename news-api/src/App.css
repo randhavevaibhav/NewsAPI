@@ -12,15 +12,22 @@ body{
 {
   width: 100%;
   font-size: 22px;
-  margin: 0;
+  margin:0;
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+  height: fit-content;
+  background-color: black;
+  color: white;
 }
 
 .newsContainer
 {
   width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .newsContainer .article
@@ -45,3 +52,54 @@ body{
 {
  width: 600px;
 }
+.card-title
+{
+  font-weight: bold;
+}
+h4{
+  font-size: 18px;
+}
+.card
+{
+  margin-bottom: 5rem;
+  border: 4px solid black;
+  margin-right: 54px;
+  width:38rem;
+  height: 38rem;
+}
+#news-summary
+{
+  font-size: 0.8rem;
+}
+#Error-div
+{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#Error-div>p{
+
+color: red;
+font-weight: bold;
+}
+
+
+@media (max-width: 800px) {
+.card{
+  height: fit-content;
+  margin-right: 0px;
+  width: 23rem;
+}
+
+}
+
+@media (max-width: 380px) {
+  .card{
+   
+    width: 20rem;
+  }
+  
+  }
