@@ -68,6 +68,11 @@ h4{
   width:38rem;
   height: 38rem;
 }
+
+.card-img-top
+{
+  height: 100%;
+}
 #news-summary
 {
   font-size: 0.8rem;
